@@ -159,9 +159,10 @@ header{
 
 #carreira{
     width: 100%;
-    height: auto;
+    height: 350px;
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 100px;
 }
 
 .box-carreiratop{
@@ -172,7 +173,8 @@ header{
     background-color: #345A13;
     border-radius: 4px;
     padding: 1% 2%;
-
+    color: #fff;
+    box-shadow: 8px 8px 15px #00000090;
 }
 
 .box-carreirabottom{
@@ -183,7 +185,11 @@ header{
     background-color: #345A13;
     border-radius: 4px;
     padding: 1% 2%;
+    color: #fff;
+    box-shadow: 8px 8px 15px #00000090;
 }
+
+#carreira 
 
 /* Sessão quiz */
 
