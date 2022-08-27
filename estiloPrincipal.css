@@ -11,8 +11,7 @@
 
 main{
     width: 100%;
-    height: 900px;
-    /* background-color: #ccc; */
+    height: auto;
 }
 
 header{
@@ -28,18 +27,15 @@ header{
     width: 98%;
     height: 80px;
     display: flex;
-    /* background-color: aqua; */
 }
 
 .menu-logo {
     width: 15%;
     height: 80px;
-    /* background-color: blueviolet; */
 }
 
 .menu-logo img{
     width: 100%;
-    /* background-color: #ccc;   */
     height: 100%;
     display: flex;
     margin: auto;
@@ -49,8 +45,6 @@ header{
     width: 50%;
     display: flex;
     justify-content: space-evenly;
-    /* background-color: chocolate; */
-
 }
 
 #menu-links ul {
@@ -58,7 +52,6 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* background-color: #fff; */
 }
 
 #menu-links li a{
@@ -132,15 +125,16 @@ header{
 }
 
 #imagem_topo{
-    /* background-color: aqua; */
     width: 50%;
     height: auto;
     display: flex;
 }
 
 #imagem_topo img{
+    width: 100%;
     height: 550px;
     margin: auto;
+    border-radius: 20px;
 }
 
 /* ---------Fim da section inicio--------- */
@@ -171,7 +165,9 @@ header{
 }
 
 .box-carreiratop{
-    width: 15%;
+    width: 50%;
+    margin: 150px 20px 0px 0px;
+    margin-left: 20px;
     margin-top: 150px;
     background-color: #345A13;
     border-radius: 4px;
@@ -180,8 +176,10 @@ header{
 }
 
 .box-carreirabottom{
-    width: 15%;
+    width: 50%;
+    margin: 0px 20px 150px 0px;
     margin-bottom: 150px;
+    margin-left: 20px;
     background-color: #345A13;
     border-radius: 4px;
     padding: 1% 2%;
@@ -240,12 +238,148 @@ header{
     background-color: #345A13;
 }
 
-#banner-dissolver-bottom {
-    margin-top: -8px;
+#banner-dissolver-center {
+    margin-top: 8px;
     height: 7.4rem;
     background: linear-gradient(to top, #fff, #ebebeb, #eee);
 }
 
 /* Finalizada a sessão carreira */
+
+article{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: darkslategray; */
+}
+
+article span{
+    margin-top: 5%;
+    width: 65%;
+    /* background-color: deeppink; */
+}
+
+article span h2{
+    color: #35553b;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+article span p{
+    width: 95%;
+    text-align: center;
+    margin-left: 4%;
+    margin-bottom: 10%;
+}
+
+article div{
+    width: 50%;
+    margin-left: 6%;
+    /* background-color: orangered; */
+}
+
+article #tractor{
+    width: 30%;
+}
+
+article #tractor img{
+    width: 100%;
+}
+
+aside{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    /* background-color: hotpink; */
+}
+
+aside h2{
+    position: absolute;
+    color: #35553b;
+    text-align: center;
+    top: 50px;
+    left: 310px;
+    z-index: 1;
+}
+
+#apoio{
+    position: absolute;
+    top: 110px;
+    left: 70px;
+    z-index: 1;
+}
+
+#lateral-img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 0;
+    width: 30%;
+    height: 1100px;
+}
+
+#lateral-img img{
+    width: 100%;
+    height: 100%;
+}
+aside h3{
+    position: absolute;
+    top: 620px;
+    left: 550px;
+    color: #35553b;
+}
+#benef{
+    position: absolute;
+    top: 700px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#benef img{
+    border: 2px solid #00000040;
+    width: 25%;
+    height: auto;
+}
+
+#banner-dissolver-bottom{
+    margin-top: 8px;
+    height: 7.4rem;
+    background: linear-gradient(to bottom, #fff, #5b7960bd, #35553bec);
+}
+
+/* rodapé */
+footer{
+    background-color: #35553bee;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+footer div{
+    width: 25%;
+}
+
+footer div a{
+    width: 80%;
+    display: block;
+    text-decoration: none;
+    color: #ccc;
+}
+
+footer div a:hover{
+    transition: .3s ease-in-out;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+
+
+
 
 
